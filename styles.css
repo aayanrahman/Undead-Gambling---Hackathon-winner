@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #301c54; /* darker purple */
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* to position the logo */
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /* increase the width */
+    height: auto; /* maintain aspect ratio */
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    margin: 0 auto; /* centering the input boxes */
+    display: block;
+}
+
+button {
+    background-color: #ff6600; /* orange */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto; /* centering the button */
+}
+
+button:hover {
+    background-color: #cc5500; /* darker orange on hover */
+}
+
+.result {
+    margin-top: 20px;
+    border-top: 1px solid #cccccc;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.result p {
+    margin: 5px 0;
+    color: #333333;
+}
